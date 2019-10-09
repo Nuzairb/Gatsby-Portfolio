@@ -4,7 +4,6 @@ const chalk = require('chalk');
 const path = require('path');
 const { writeFileSync } = require('fs');
 const envfile = require('envfile');
-
 const exportFile = require('./contentful-config.json');
 
 console.log(`
