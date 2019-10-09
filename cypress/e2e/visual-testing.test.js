@@ -10,7 +10,6 @@ describe('Visual Testing', () => {
       widths: SCREENS,
     });
   });
-
   it('404 Page', () => {
     cy.visit('/404');
     cy.wait(1000); // eslint-disable-line cypress/no-unnecessary-waiting
