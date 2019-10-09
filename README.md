@@ -114,21 +114,6 @@ After this step we can finally run the project and see the result in http://loca
 npm start
 ```
 
-## Screenshot and Design 🖼
-
-As the starter is a SPA it only has two routes:
-
-- `/`: main page with the sections of `Home`, `About me`, `Projects` and `Writing`.
-- `/404`: error page for unexpected route.
-
-| Section  |           Screenshot            |
-| -------- | :-----------------------------: |
-| Home     |     ![Home](media/home.png)     |
-| About me |  ![About me](media/about.png)   |
-| Projects | ![Projects](media/projects.png) |
-| Writing  |  ![Writing](media/writing.png)  |
-| /404     |      ![404](media/404.png)      |
-
 ## Building your site 📦
 
 As we are dealing with environment variables, the `.env` file is excluded from `.gitignore` file. Therefore, in order to deploy the website you have to send `SPACE_ID` and `ACCESS_TOKEN` with the `build` command.
