@@ -29,6 +29,7 @@ const Background = () => (
   </div>
 );
 
+
 const NotFoundPage = () => (
   <Layout>
     <Section.Container id="404" Background={Background}>
