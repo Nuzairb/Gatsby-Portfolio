@@ -20,7 +20,6 @@ feat  - A new feature.
 fix   - A bug fix.
 docs  - Documentation only changes
 ```
-
 Example: `feat/new-top-bar` or `fix/broken-project-link`
 
 ## Setting Up the Code for Local Development
@@ -31,13 +30,11 @@ Example: `feat/new-top-bar` or `fix/broken-project-link`
 ```bash
   $ git checkout -b name-of-your-bugfix-or-feature
 ```
-
 3. Install dependencies
 
 ```
   $ yarn
 ```
-
 4. Commit your changes and push your branch to GitHub::
 
 ```bash
@@ -45,7 +42,6 @@ Example: `feat/new-top-bar` or `fix/broken-project-link`
   $ git commit -m "Your detailed description of your changes."
   $ git push origin name-of-your-bugfix-or-feature
 ```
-
 5. Submit a pull request through the GitHub website.
 
 After the pull request is submitted TravisCI is going to run all the automated tasks that ensure a minimium code quality. **This is a mandatory requirement in order to merge your pul request.**
